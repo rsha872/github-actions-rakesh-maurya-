@@ -9,11 +9,9 @@ jobs:
 # This is the name of Job
     greet:
       runs-on: ubuntu-latest
-        steps:
-        
-            - name: Say hello to user
-             run : echo "Hello Dosto"
-
-            - name: sya hello to username
-            run: echo "Hello $USER"
+    steps:
+        - name: Say hello to user
+          run : echo "Hello Dosto"
+        - name: sya hello to username
+           run: echo "Hello $USER"
   
